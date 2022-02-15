@@ -1,0 +1,67 @@
+.button-random {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 72vw;
+    height: 72vw;
+    border-radius: 50%;
+    font-size: 6rem;
+    color: white;
+    border: none;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.button-select {
+    position: absolute;
+    bottom: 2vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 95vw;
+}
+
+.button-out {
+    font-size: 1rem;
+    color: white;
+    height: 4vh;
+    width: 20vw;
+    border-radius: 15vw;
+}
+
+.button-mod {
+    /* margin-right: 8px; */
+    font-size: 1rem;
+    /* color: white; */
+    height: 4vh;
+    width: 32vw;
+    border-radius: 15vw;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    width: 95vw;
+    position: absolute;
+    top: 4vh;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-restart {
+    width: 40vw;
+    height: 4vh;
+    font-size: 1rem;
+    border-radius: 15vw;
+    margin-top: 4vh;
+}
